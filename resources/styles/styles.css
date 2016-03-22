@@ -1,5 +1,6 @@
 h1 {
-  color: blue;
+  color: #086d6d;
+  text-shadow: 1px 1px 1.5px grey;
 }
 
 .selected {
@@ -21,4 +22,25 @@ h1 {
 .filter {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  font-size: 25px;
+  text-shadow: 1px 1px 1.5px grey;
+}
+
+.low_priority {
+  color:#1f9b23;
+}
+
+.medium_priority {
+  color:#ffcc11;
+}
+
+.high_priority {
+  color:#6d0808;
 }
