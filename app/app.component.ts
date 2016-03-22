@@ -27,6 +27,5 @@ export class AppComponent {
     ];
   }
   taskWasSelected(clickedTask: Task): void {
-    console.log(clickedTask);
   }
 }
