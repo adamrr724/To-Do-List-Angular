@@ -40,10 +40,10 @@ export class TaskListComponent {
     this.onTaskSelect.emit(clickedTask);
   }
   createTask(newTask: Task): void {
-    console.log(newTask);
     this.taskList.push(
       new Task(newTask.description, this.taskList.length, newTask.priority, newTask.category)
     );
+    console.log(this.taskList[this.taskList.length-1]);
   }
   onChange(filterOption) {
     this.filterDone = filterOption;
